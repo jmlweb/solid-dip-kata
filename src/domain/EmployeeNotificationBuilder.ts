@@ -6,7 +6,7 @@ interface E2S {
 }
 
 interface E2M {
-  (employee: Employee): Meta
+  (employee: Employee): Meta;
 }
 
 export class EmployeeNotificationBuilder {
@@ -27,6 +27,6 @@ export class EmployeeNotificationBuilder {
       recipient,
       message,
       meta,
-    }
+    };
   }
 }

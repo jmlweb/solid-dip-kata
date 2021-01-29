@@ -37,8 +37,8 @@ describe('BirthdayGreeter', () => {
       {
         recipient: 'johnny@blaze.com',
         message: 'Happy birthday, dear Jonathan!',
-        meta: { subject: 'Happy Birthday!' }
-      }
+        meta: { subject: 'Happy Birthday!' },
+      },
     ]);
   });
 });

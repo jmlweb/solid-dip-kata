@@ -1,5 +1,5 @@
 export interface Meta {
-  [key: string]: unknown
+  [key: string]: unknown;
 }
 
 export interface Notification {

@@ -12,7 +12,10 @@ export class BirthdayGreeter {
     this.clock = clock;
   }
 
-  sendGreetings(employeeNotificationBuilder: EmployeeNotificationBuilder, sender: Sender) {
+  sendGreetings(
+    employeeNotificationBuilder: EmployeeNotificationBuilder,
+    sender: Sender
+  ) {
     const monthDay = this.clock.getMonthDay();
     const employees = this.employeeRepository.findByBirthday(monthDay);
     const notifications = employees.map(employee =>

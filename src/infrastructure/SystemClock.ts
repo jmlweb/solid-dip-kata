@@ -8,6 +8,6 @@ export class SystemClock implements Clock {
     return {
       day,
       month,
-    }
+    };
   }
 }

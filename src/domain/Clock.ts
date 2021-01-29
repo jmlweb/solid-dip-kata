@@ -4,5 +4,5 @@ export interface MonthDay {
 }
 
 export interface Clock {
-  getMonthDay(): MonthDay
+  getMonthDay(): MonthDay;
 }

@@ -1,5 +1,5 @@
 import { Notification } from './Notification';
 
 export interface Sender {
-  send(notification: Notification): void
+  send(notification: Notification): void;
 }
