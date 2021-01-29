@@ -1,0 +1,1 @@
+export { BirthdayGreeter } from './BirthdayGreeter';
